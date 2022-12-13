@@ -318,11 +318,23 @@ span{
 .skin-analysis-sub2 img{
     width: 200px;
     height: 200px;
-    border-radius: 30px 30px 30px 30px;
+    border-radius: 0px 30px 30px 0px;
     margin-right: 50px;
 }
 .skin-analysis-img{
     width: 750px;
     height: 500px;
-    margin: 40px;
+    margin: 10px;
+    padding-top: 40px;
+}
+.question-pg-btn1{
+    margin-left: 450px;
+    margin-top: 40px;
+}
+.skin-analysis-img2{
+    margin: 40px 0px 0px 300px ;
+}
+.skin-analysis-sub2{
+    border: solid white;
+    width: 750px;
 }
