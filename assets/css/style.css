@@ -81,17 +81,20 @@ li{
   color: black;
   text-decoration: none;
   margin: 1em 1em 1em 1em;
+  text-align: center;
   
 }
 
 .subnav-content a:hover {
   text-decoration: underline;
   color: black;
+  text-align: center;
   
 }
 
 .subnav:hover .subnav-content {
   display: block;
+  text-align: center;
 }
 
 
@@ -292,8 +295,13 @@ span{
     height: 700px;
     padding-top: 50px;
     width: 1200px;
-    margin: 100px;
+    margin: 85px;
     padding-left: 100px;
+    border-radius: 50px;
+    box-shadow: -1px 0px 19px 9px rgba(36,36,36,1);
+}
+.question-pg-btn1 :hover{
+  box-shadow: 0px 2px 47px -17px rgba(255,255,255,1);
 }
 .question-pg-btn{
     background-color: #11999E;
@@ -302,9 +310,10 @@ span{
     border-radius: 30px;
     margin-left: 40px;
     border: none;
+    cursor: pointer;
 }
 .skin-analysis-sub-para{
-    width: 750px;
+    width: 1000px;
     background-color: #EEEEEE;
     height: 100px;
     z-index: -1;
@@ -312,8 +321,9 @@ span{
     font-size: 20px;
 }
 .skin-analysis-container1{
-    margin: 100px 100px 0px 300px;
+    margin: 0px 0px 0px 300px;
     font-size: 22px;
+    width: 1000px;
 }
 .skin-analysis-sub2 img{
     width: 200px;
@@ -328,8 +338,10 @@ span{
     padding-top: 40px;
 }
 .question-pg-btn1{
-    margin-left: 450px;
-    margin-top: 40px;
+    margin-left: 500px;
+    position:absolute;
+    z-index: 1; 
+    top:120%;
 }
 .skin-analysis-img2{
     margin: 40px 0px 0px 300px ;
@@ -337,4 +349,10 @@ span{
 .skin-analysis-sub2{
     border: solid white;
     width: 750px;
+}
+.products-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 80px;
 }
