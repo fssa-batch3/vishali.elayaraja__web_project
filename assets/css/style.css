@@ -443,6 +443,7 @@ input[type="radio"]{
 .clean-pg img{
   width: 400px;
   height: 600px;
+  display: flex;
 }
 .clean-pg i{
     color: gold;
