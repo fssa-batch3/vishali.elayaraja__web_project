@@ -2,7 +2,7 @@ body{
     background-color:#222831;
     margin: 0px;
     padding: 0px;
-    color: white;
+    color:white;
 }
 .nav-1 a{
     text-decoration: none;
@@ -10,7 +10,7 @@ body{
     color: white;
  }
  .nav-1{
-   background-color: #393E46;
+   background-color:#101820FF;
    color: white;
    display: flex;
    justify-content: flex-end;
@@ -41,13 +41,10 @@ li{
     height: 50px;
     gap: 100px;
 } 
-
-
 .subnav {
   float: left;
   overflow: hidden;
 }
-
 .subnav .subnavbtn {
   font-size: 12px;  
   border: none;
@@ -58,15 +55,12 @@ li{
   font-family: inherit;
   margin: 0;
 }
-
 .subnav .subnavbtn:hover{
     color: black;
 }
-
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #EEEEEE;
 }
-
 .subnav-content {
   display: none;
   position: absolute;
@@ -74,30 +68,26 @@ li{
   background-color:  #EEEEEE;
   width: 100%;
   z-index: 1;
+  font-size: 10px;
 }
-
 .subnav-content a {
   /* float: left; */
   color: black;
   text-decoration: none;
   margin: 1em 1em 1em 1em;
   text-align: center;
-  
 }
-
 .subnav-content a:hover {
   text-decoration: underline;
   color: black;
   text-align: center;
-  
 }
-
 .subnav:hover .subnav-content {
   display: block;
   text-align: center;
+  opacity: 0.6;
+  font-size: 10px;
 }
-
-
 .sub1{
     display: flex;
     font-size: 30px;
@@ -107,10 +97,11 @@ li{
     margin: 20px;
 }
 .main img{
-    width: 1450px;
+    width: 1350px;
     height: 700px;
     border-radius: 20px;
-    margin-top: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 .main-btn{
     position: absolute;
@@ -121,15 +112,14 @@ li{
 .main{
     border-radius: 25px;
     margin: 20px;
-  
 }
 .main-image-para{
     position: absolute;
     z-index: 1;
-    top: 30%;
-    left: 40%;
+    top: 33%;
+    left: 38%;
     color: #222831;
-    font-size: 30px;
+    font-size: 32px;
 }
 .mainbtn{
     background-color: #11999E;
@@ -148,7 +138,7 @@ li{
     position:relative;
     z-index: 1;
     left: 130px;
-    top: 190px;
+    top: 180px;
     margin-top: 60px;
 }
 .sub-2{
@@ -158,7 +148,7 @@ li{
     position:absolute;
     z-index: 1;
     left: 630px;
-    top: 125%;
+    top: 129%;
 }
 .sub-3{
     border-radius: 50%;
@@ -167,7 +157,7 @@ li{
     position:absolute;
     z-index: 1;
     left: 1100px;
-    top: 145%;
+    top: 140%;
 }
 .index-container-1-parah{
     position: relative;
@@ -186,7 +176,7 @@ span{
     position:absolute;
     z-index: 1;
     left: 1100px;
-    top: 200%;
+    top: 195%;
 }
 .sub-6{
     border-radius: 50%;
@@ -195,7 +185,7 @@ span{
     position:absolute;
     z-index: 1;
     left: 630px;
-    top: 220%; 
+    top: 215%; 
 }
 .sub-4{
     border-radius: 50%;
@@ -204,26 +194,33 @@ span{
     position:absolute;
     z-index: 1;
     left: 145px;
-    top: 200%;
+    top: 190%;
 }
 .container-2-img1{
     width: 400px;
     height: 450px;
     margin-top: 450px;
-    background-color: #11999E;
-    padding-right: 20px;
+    border-radius: 0px 30px 30px 0px;
 }
 .cotainer-2-parah{
     margin-top: 450px;
     background-color: #11999E;
     color: black;
-    width: 100%;
-    padding-left: 40px;
+    width: 980px;
+    margin-left: 40px;
     font-size: 20px;
+    border-radius: 30px 0px 0px 30px;
     height: 450px;
+    padding-left: 20px;
 }
 .container-2 , .skin-analysis-sub2{
     display: flex;
+}
+.banner-image{
+    margin-top: 50px;
+    width: 1400px;
+    margin-left: 40px;
+  
 }
 .subnav .subnavbtn {
     font-size: 16px;  
@@ -233,6 +230,7 @@ span{
     padding: 14px 16px;
     background-color: inherit;
     margin: 0;
+    opacity: 0.6;
 }
 .footer-1{
     width: 100%;
@@ -245,6 +243,9 @@ span{
     width: 400px;
     height: 500px;
 }
+.feedback-sub h2{
+    text-align: center;
+}
 .feedback-main{
     overflow: hidden;
    overflow-x:scroll;
@@ -254,8 +255,6 @@ span{
    margin-left: 20px;
    margin-right: 20px;
    color: black;
-
-
 }
 .feedback-main::-webkit-scrollbar{
     display: none;
@@ -264,6 +263,10 @@ span{
     width: 300px;
     border-radius: 18px 18px 0px 0px;
 }
+.footer-2{
+    margin: 40px;
+}
+
 .feedback-sub{
     border:   solid white;
     width: 330px;
@@ -284,10 +287,23 @@ span{
     margin-top: 80px;
     background-color: #1d2128;
     height: 400px;
+    position: relative;
+    top: 30px;
 }
 .index-base{
     background-color: black;
     text-align: center;
+    display: block;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 40px;
+}
+
+.index-base a{
+    text-decoration: none;
+    color: white;
 }
 .question-pg{
     font-size: 22px;
@@ -354,5 +370,80 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 80px;
+    padding-top: 80px;
+    gap: 80px;
+    color: black;
+    margin: 30px;
+}
+.products-main img{
+width: 300px;
+height: 300px;
+border-radius: 30px;
+}
+.product-sub{
+    height: 550px;
+    width: 300px;
+    border: solid white;
+    border-radius: 30px;
+    background-color: #EEEEEE;
+}
+.biling-pg img{
+    width: 100%;
+    height: 100%;
+}
+.biling-heading{
+    text-align: center
+}
+.biling-sub{
+    width: 330px;
+    color:black;
+    border-radius: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    left: 530px;
+    height: 450px;
+    width: 400px;
+    background-color:white;
+    border: 1px solid white;
+    box-shadow:0px 2px 22px 8px rgba(0,0,0,0.75);
+}
+.payment-img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+hr{
+    border:1px solid  hsl(215, 13%, 26%);
+    padding-left: 10px;
+    margin-right: 10px;
+  }
+.biling-sub input{
+    position: relative;
+    bottom: 10px;
+}
+.biling-sub label{
+    position: relative;
+    bottom: 20px;
+}
+input[type="radio"]{
+    position: relative;
+    top: 0px;
+    right: 20px;
+}
+.payment-name{
+    position: relative;
+    left: 30px;
+}
+.clean-pg{
+    background-color: #222831;
+}
+.clean-pg img{
+  width: 400px;
+  height: 600px;
+}
+.clean-pg i{
+    color: gold;
 }
