@@ -10,7 +10,7 @@ flow-chart:
 https://drive.google.com/file/d/1e8JVuuF2bm11WFrfOAgwMXM6YIgA1Kmg/view?usp=sharing
 
 wireframe:
-https://drive.google.com/file/d/1jddN5Z1RALFu0xpcpp8uq47AasIUF5-B/view?usp=sharing
+https://drive.google.com/file/d/1m2V50ZEpqyj1HBHsI6-0OBo3reJF64df/view?usp=sharing
 
 live server:
 https://fssa-batch3.github.io/vishali.elayaraja__web_project/
